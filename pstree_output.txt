@@ -1,0 +1,36 @@
+systemd-+-2*[agetty]
+        |-cron
+        |-dbus-daemon
+        |-init-systemd(Ub-+-SessionLeader---Relay(428)-+-cpptools-srv---7*[{cpptools-srv}]
+        |                 |                            `-sh---sh---sh---node-+-node---10*[{node}]
+        |                 |                                                  |-node---12*[{node}]
+        |                 |                                                  |-node-+-cpptools---25*[{cpptools}]
+        |                 |                                                  |      |-language_server-+-language_server---18*[{lang+
+        |                 |                                                  |      |                 `-18*[{language_server}]
+        |                 |                                                  |      |-node---6*[{node}]
+        |                 |                                                  |      `-11*[{node}]
+        |                 |                                                  `-10*[{node}]
+        |                 |-SessionLeader---Relay(217830)---bash-+-git---git---git-remote-http
+        |                 |                                      `-pstree
+        |                 |-SessionLeader---Relay(664740)---node---6*[{node}]
+        |                 |-SessionLeader---Relay(664749)---node---6*[{node}]
+        |                 |-init---{init}
+        |                 |-login---bash
+        |                 `-{init-systemd(Ub}
+        |-networkd-dispat
+        |-packagekitd---2*[{packagekitd}]
+        |-polkitd---2*[{polkitd}]
+        |-rsyslogd---3*[{rsyslogd}]
+        |-snapd---21*[{snapd}]
+        |-9*[snapfuse---2*[{snapfuse}]]
+        |-snapfuse---3*[{snapfuse}]
+        |-snapfuse---5*[{snapfuse}]
+        |-3*[snapfuse---4*[{snapfuse}]]
+        |-subiquity-serve---python3.10-+-python3
+        |                              `-5*[{python3.10}]
+        |-systemd---(sd-pam)
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-resolve
+        |-systemd-udevd
+        `-unattended-upgr---{unattended-upgr}
